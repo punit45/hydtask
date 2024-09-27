@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #022950;
+    height: 80px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.app-name {
+    font-size: 24px;
+    color: #f6f1f1;
+    margin: 0 0 0 8px !important;
+}
+
+
+.divider {
+    height: 70px;
+    margin: 0 0 0 8px !important;
+    background-color: aliceblue;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.username {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #f8f1f1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right {
+        margin-top: 10px;
+    }
+}
